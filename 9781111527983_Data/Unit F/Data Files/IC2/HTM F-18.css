@@ -1,0 +1,103 @@
+﻿/* Murfreesboro Regional Soccer League */
+header, nav, footer {
+  display: block;
+  }
+body {
+  text-align: left;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+h1, h2, #affiliation {
+  text-align: center;
+  padding: 0.1em;
+  margin: 0;
+  font-family: georgia, "times new roman", times, serif;
+  }
+h1 {
+  font-size: 2em;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+header {
+  background: #8CC63F;
+  padding: 0;
+  margin: 0;
+  }
+#affiliation {
+  font-size: 1.25em;
+  }
+#box {
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.35em solid black;
+  }
+#mainnav {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 0.25em;
+  }
+#maintext {
+  padding: 0 0.5em 0 0.5em;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  color: white;
+  background-color: black;
+  margin: 0;
+  }
+#skipnav {
+  width: 45em;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  }
+#skiplink {
+  padding: 0.25em;
+  margin: 0;
+  }
+.toplink {
+  text-align: left;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: #663300;
+  }
+a:visited {
+  color: #663300;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #663300;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: #754719;
+  }
+#pagenav a:hover {
+  color: red;
+  }
+#pagenav a:active {
+  color: #754719;
+  }
+#mainnav a:link {
+  color: white;
+  }
+#mainnav a:visited {
+  color: #8CC63F;
+  }
+#mainnav a:hover {
+  color: red;
+  }
+#mainnav a:active {
+  color: #8CC63F;
+  }

@@ -1,0 +1,151 @@
+﻿/* Spotted Wren Garden Center */
+@font-face {
+  font-family: 'LatinModernSans10Regular';
+  src: url('fonts/lmsans10-regular-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-regular-webfont.woff') format('woff'), url('fonts/lmsans10-regular-webfont.ttf') format('truetype'), url('fonts/lmsans10-regular-webfont.svg#webfontN8lwBY19') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'LatinModernSans10Bold';
+  src: url('fonts/lmsans10-bold-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-bold-webfont.woff') format('woff'), url('fonts/lmsans10-bold-webfont.ttf') format('truetype'), url('fonts/lmsans10-bold-webfont.svg#webfontNWekoGWb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+figure, footer, nav {
+  display: inline;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+dd {
+  font-style: italic;
+  }
+figure {
+  margin: 0;
+  padding: 0;
+  }
+figure img {
+  margin: 0;
+  padding: 0;
+  float: right;
+  }
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  clear: right;
+  }
+footer p {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0;
+  }
+h1 {
+  font-family: LatinModernSans10Bold, arial, helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0;
+  }
+h1 img {
+  display: block;
+  }
+h2 {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  }
+nav {
+  margin: 0;
+  padding: 0;
+  }
+table {
+  margin: 1em 0;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+#box {
+  width: 54em;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#content {
+  padding: 0 0 0 1em;
+  margin: 0;
+  }
+#mainnav {
+  text-align: center;
+  padding: 0.25em;
+  margin: 0;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#skipnav {
+  width: 54em;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  }
+#skiplink {
+  padding: 0.25em;
+  margin: 0;
+  }
+#tagline {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0.25em;
+  }
+.day {
+  font-weight: bold;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.1em 0.5em;
+  }
+.table {
+  display: table;
+  margin: 0;
+  padding: 0;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: black;
+  }
+#mainnav a:active {
+  color: black;
+  }

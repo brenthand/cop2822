@@ -1,0 +1,134 @@
+﻿/* Hotel Natoma */
+@font-face {
+  font-family: 'PTSansCaption';
+  src: url('fonts/PTC55F-webfont.eot');
+  src: local('☺'), url('fonts/PTC55F-webfont.woff') format('woff'), url('fonts/PTC55F-webfont.ttf') format('truetype'), url('fonts/PTC55F-webfont.svg#webfontaMnF3Xb4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, header, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+article, aside, figure, header, footer, nav {
+  display: block;
+  }
+article {
+  padding: 10px;
+  }
+body {
+  font-family: tahoma, verdana, arial, sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  }
+figcaption {
+  text-align: center;
+  }
+figure {
+  float: right;
+  }
+footer {
+  border: 0.25em solid #082008;
+  border-left: 0;
+  clear: both;
+  text-align: center;
+  background: #93AD78;
+  }
+footer p {
+  padding: 0.5em;
+  }
+h1 {
+  text-align: center;
+  font-family: PTSansCaption, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  background: #082008;
+  color: white;
+  font-size: 2em;
+  }
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 15px;
+  }
+ol {
+  list-style-type: lower-roman;
+  }
+ul {
+  padding-left: 40px;
+  }
+#box {
+  border: 0.25em solid #082008;
+  background: #FDF5E6;
+  }
+#logo {
+  background: #082008;
+  }
+#logo img {
+  display: block;
+  margin: 0 auto;
+  }
+#mainnav {
+  text-align: center;
+  padding: 0.5em;
+  border-bottom: 0.25em solid #082008;
+  background: #93AD78;
+  margin: 0;
+  }
+#mainnav a {
+  text-decoration: none;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  background: #082008;
+  }
+#skipnav {
+  color: white;
+  }
+#skipnav  a {
+  text-decoration: none;
+  }
+.center {
+  margin: 0 auto;
+  }
+.center img {
+  display: block;
+  padding: 0 0 2em 0;
+  margin: 0 auto;
+  }
+.right {
+  margin: 0 1em 0 0;
+  float: right;
+  clear: right;
+  }
+.right img {
+  display: block;
+  }
+a:link {
+  color: white;
+  }
+a:visited {
+  color: white;
+  }
+a:hover {
+  text-decoration: underline;
+  }
+a:active {
+  color: white;
+  }
+#skipnav a:hover {
+  text-decoration: underline;
+  }
+#mainnav a:link {
+  color: white;
+  }
+#mainnav a:visited {
+  color: #ffffcc;
+  }
+#mainnav a:hover {
+  text-decoration: underline;
+  }
+#mainnav a:active {
+  color: white;
+  }

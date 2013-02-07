@@ -1,0 +1,139 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+@font-face {
+  font-family: 'CuprumFFURegular';
+  src: url('fonts/Cuprum-webfont.eot');
+  src: local('☺'), url('fonts/Cuprum-webfont.woff') format('woff'), url('fonts/Cuprum-webfont.ttf') format('truetype'), url('fonts/Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  }
+footer {
+  display: block;
+  background: #B8944D;
+  padding: 0.25em;
+  margin: 0;
+  }
+footer p {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+h1, h2, nav {
+  text-align: center;
+  font-family: CuprumFFURegular, georgia, "times new roman", times, serif;
+  }
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0.25em;
+  color: white;
+  background: #422100;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+h3 {
+  font-size: 1.1em;
+  }
+nav {
+  display: block;
+  padding: 0.25em;
+  margin: 0;
+  }
+nav p {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+#box {
+  width: 42em;
+  padding: 1em;
+  margin: 0 auto; 
+  background: white;
+  }
+#contact {
+  padding: 0.25em 1.5em;
+  background: #B8944D;
+  }
+#mainnav {
+  background: #B8944D;
+  }
+#name {
+  font-weight: bold;
+  }
+#pagenav {
+  text-align: center;
+  color: white;
+  background: #422100;
+  padding: 0.25em;
+  margin: 0;
+  }
+#skipnav {
+  width: 40em;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+.beds {
+  padding: 0 0 0 3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  }
+.callout {
+  font-weight: bold;
+  }
+.desc {
+  padding: 0 0 0 3em;
+  margin: 0;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  }
+a:link {
+  color: #422100;
+  }
+a:visited {
+  color: #422100;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #422100;
+  }
+#pagenav a:link {
+  color: white;
+  }
+#pagenav a:visited {
+  color: #D7C39C;
+  }
+#pagenav a:hover {
+  color: #C6A971;
+  }
+#pagenav a:active {
+  color: white;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: #422100;
+  }
+#mainnav a:hover {
+  color: white;
+  }
+#mainnav a:active {
+  color: #422100;
+  }

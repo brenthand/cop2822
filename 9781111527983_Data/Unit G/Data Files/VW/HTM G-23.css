@@ -1,0 +1,94 @@
+﻿/* Revisions Bookstore and Cafe */
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fontsChunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+figure, footer, nav {
+  display: block;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background: brown;
+  background: url("images/books.jpg");
+  }
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  font-size: 2em;
+  }
+#box {
+  margin: 0 auto;
+  padding: 0.5em;
+  width: 34em;
+  background: white;
+  }
+#contact {
+  text-align: right;
+  margin: 0 auto;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  background: #6787E7;
+  padding: 1em;
+  clear: left;
+  }
+#logo {
+  float: left;
+  margin: 0;
+  padding: 0;
+  }
+#logosm {
+  float: right;
+  margin: 0;
+  padding: 0;
+  }
+#logo img, #logosm img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  }
+#mainnav {
+  background: #BDCCD4;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+#skipnav {
+  width: 34em;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  }
+.title {
+  font-style: italic;
+  }
+a:link {
+  color: white;
+  }
+a:visited {
+  color: white;
+  }
+a:hover {
+  color: white;
+  }
+a:active {
+  color: white;
+  }
+#mainnav a:link {
+  color: #203470;
+  }
+#mainnav a:visited {
+  color: #3454B4;
+  }
+#mainnav a:hover {
+  color: black;
+  }
+#mainnav a:active {
+  color: #3454B4;
+  }

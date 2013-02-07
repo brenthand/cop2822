@@ -1,0 +1,277 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+@font-face {
+  font-family: 'CuprumFFURegular';
+  src: url('fonts/Cuprum-webfont.eot');
+  src: local('☺'), url('fonts/Cuprum-webfont.woff') format('woff'), url('fonts/Cuprum-webfont.ttf') format('truetype'), url('fonts/Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+dt, h1, h2, h3, nav, footer, th {
+  font-family: CuprumFFURegular, georgia, "times new roman", times, serif;
+  }
+h1, h2, footer {
+  text-align: center;
+  }
+ol, ul {
+  margin-left: 2em;
+  }
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  background: #6e93c8;
+  background: url("images/lake.jpg");
+  }
+body p {
+  font-size: 1em;
+  }
+figcaption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.6);
+  }
+figure {
+  display: block;
+  float: right;
+  margin: 0 0 0.5em 1em;
+  text-align: center;
+  position: relative;
+  }
+figure img {
+  display: block;
+  }
+footer {
+  display: block;
+  clear: both;
+  font-size: 1.25em;
+  }
+footer p {
+  background: #B8944D;
+  text-align: center;
+  padding: 0.25em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  }
+h1 {
+  font-size: 2.25em;
+  }
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  }
+h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  }
+img {
+  border: none;
+  margin: 0 auto;
+  }
+li img {
+  position: absolute;
+  left: -22px; 
+  top: -8px;
+  }
+nav {
+  display: block;
+  font-size: 1.25em;
+  }
+nav ul {
+  margin-left: 0;
+  }
+nav p {
+  text-align: center;
+  }
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border-bottom: 1px solid black;
+  padding: 0.25em;
+  background: #B8944D;
+  }
+ul {
+  list-style-type: square;
+  }
+#box {
+  position: relative;
+  padding: 1em;
+  margin: 0 auto; 
+  background: white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  }
+#content {
+  display: block;
+  margin-left: 10em;
+  }
+#content p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  }
+#mainnav {
+  text-align: left;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  width: 7em;
+  position: absolute;
+  left: 20px;
+  }
+#mainnav a {
+  text-decoration: none;
+  }
+#mainnav li {
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1em;
+  margin: 0.25em 0;
+  background: #B8944D;
+  position: relative;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid #666;
+  border-right: 2px solid #777;
+  }
+#mainnav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 2em;
+  z-index: 2;
+  }
+#name {
+  font-weight: bold;
+  }
+#pagenav {
+  color: white;
+  background: #422100;
+  margin: 0;
+  padding: 0.25em;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  position: absolute;
+  right: 15px;
+  z-index: 10;
+  }
+#title {
+  font-style: italic;
+  }
+.beds {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  font-weight: bold;
+  }
+.boxshadow #mainnav li {
+  border: none;
+  -webkit-box-shadow: 2px 2px 4px #000000;
+  -moz-box-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 4px #000000;
+  }
+.callout {
+  font-weight: bold;
+  }
+.category {
+  font-weight: bold;
+  }
+.contact {
+  display: table;
+  }
+.cotcol {
+  background: #9daecd;
+  width: 15%;
+  }
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+.firstcol {
+  background: #f1eace;
+  width: 25%;
+  }
+.rates td {
+  text-align: center;
+  }
+.rates td.season {
+  text-align: left;
+  }
+.roomcols {
+  background: #aecdf4;
+  width: 15%;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.25em 0.5em;
+  }
+.tablenote {
+  width: 90%;
+  margin: 0.25em auto;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  clear: right;
+  }
+a:link {
+  color: #422100;
+  }
+a:visited {
+  color: #422100;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #422100;
+  }
+#pagenav a:link {
+  color: white;
+  }
+#pagenav a:visited {
+  color: #D7C39C;
+  }
+#pagenav a:hover {
+  color: #C6A971;
+  }
+#pagenav a:active {
+  color: white;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: #422100;
+  }
+#mainnav a:hover {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  }
+#mainnav a:active {
+  color: #422100;
+  }

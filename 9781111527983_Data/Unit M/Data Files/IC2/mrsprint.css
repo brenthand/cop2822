@@ -1,0 +1,149 @@
+/* Murfreesboro Regional Soccer League */
+article, aside, figure, header, footer {
+  display: block;
+  }
+article {
+  padding: 0 0.5em 0 0.5em;
+  }
+body {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+figure {
+  float: right;
+  padding: 1em 0 0.25em 0.5em;
+  margin: 0;
+  }
+h1, h2, #affiliation {
+  text-align: center;
+  padding: 0.1em;
+  margin: 0;
+  font-family: georgia, "times new roman", times, serif;
+  }
+h1 {
+  font-size: 2em;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+header {
+  padding: 0;
+  margin: 0;
+  }
+footer {
+  clear: both;
+  }
+table {
+  margin: 1em 0;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+#affiliation {
+  font-size: 1.25em;
+  }
+#box {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.35em solid black;
+  position: relative;
+  }
+#mainnav {
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  margin: 0;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  }
+#skiplink {
+  padding: 0.25em 0.75em;
+  margin: 0;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  }
+.left {
+  float: left;
+  }
+.right {
+  float: right;
+  }
+.toplink {
+  text-align: left;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: black;
+  }
+#pagenav a:hover {
+  color: black;
+  }
+#pagenav a:active {
+  color: black;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: black;
+  }
+#mainnav a:active {
+  color: black;
+  }
+#skipnav a:link {
+  color: black;
+  }
+#skipnav a:visited {
+  color: black;
+  }
+#skipnav a:hover {
+  color: black;
+  }
+#skipnav a:active {
+  color: black;
+  }

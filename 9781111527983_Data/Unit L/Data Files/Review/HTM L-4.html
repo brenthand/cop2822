@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Big J&#39;s Deep Dish Pizza - Order</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="bigj.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="bjprint.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bigjform.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="bjformpr.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="scripts/modernizr-1.6.min.js"></script>
+  </head>
+  <body>
+    <p id="skipnav"><a href="#logo"><span id="skiplink">Skip navigation</span></a></p> 
+    <div id="box">
+      <nav>
+        <ul id="mainnav">
+          <li id="navlink1"><a href="index.html">Home</a></li>
+          <li id="navlink2"><a href="order.html">Order</a></li>
+          <li id="navlink3"><a href="bigjmenu.pdf">Menu</a></li>
+          <li id="navlink4"><a href="location.html">Locations</a></li>
+        </ul>
+      </nav>
+      <h1 id="logo">
+        <a href="index.html"><img src="images/bigjs.gif" width="225" height="225" alt="Big J's Deep Dish Pizza" title="" /></a>
+      </h1>
+      <article class="content">
+        <h2 id="main">Order Online</h2>
+        <form id="order" name="order">
+          <fieldset id="deliveryinfo">
+            <legend><span>Delivery Information</span></legend>
+            <label for="nameinput">
+              <span class="req">*</span>Name
+              <input type="text" id="nameinput" name="name" placeholder="First and last name" />
+            </label>
+            <label for="addrinput">
+              <span class="req">*</span>Street Address
+              <input type="text" id="addrinput" name="address" placeholder="Building number and street" />
+            </label>
+            <label for="cityinput">
+              <span class="req">*</span>City
+              <input type="text" id="cityinput" name="city" />
+            </label>
+            <label for="emailinput">
+              Email
+              <input type="email" id="emailinput" name="email" placeholder="address@example.com" />
+            </label>
+            <label for="phoneinput">
+              <span class="req">*</span>Phone
+              <input type="text" id="phoneinput" name="phone" />
+            </label>
+            <p id="reqinstr">Fields marked with <span class="req">*</span> are required</p>
+          </fieldset>
+          <fieldset id="orderinfo">
+            <legend><span>Order</span></legend>
+            <fieldset id="sizebox">
+              <legend>Size</legend>
+              <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="XL">Extra Large</option>
+              </select>
+            </fieldset>
+            <fieldset id="crustbox">
+              <legend>Crust</legend>
+              <label for="thick">
+                <input type="radio" name="crust" id="thick" value="Deep Dish" checked="checked" />
+                Deep Dish
+              </label>
+              <label for="thin">
+                <input type="radio" name="crust" id="thin" value="Thin" />
+                Thin Crust
+              </label>
+            </fieldset>
+            <fieldset id="toppingbox">
+              <legend>Extra Topping(s)</legend>
+              <label for="pepperoni">
+                <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni" />
+                Pepperoni
+              </label>
+              <label for="sausage">
+                <input type="checkbox" id="sausage" name="toppings" value="Sausage" />
+                Sausage
+              </label>
+              <label for="greenpep">
+                <input type="checkbox" id="greenpep" name="toppings" value="Green Peppers" />
+                Green Peppers
+              </label>
+              <label for="onion">
+                <input type="checkbox" id="onion" name="toppings" value="Onions" />
+                Onions
+              </label>
+              <label for="xcheese">
+                <input type="checkbox" id="xcheese" name="toppings" value="Extra Cheese" />
+                Extra Cheese
+              </label>
+            </fieldset>
+          </fieldset>
+          <fieldset id="additionalinfo">
+            <legend><span>Special Instructions</span></legend>
+            <label for="instructions">
+              Special requests, delivery details
+              <textarea id="instructions" name="instructions" rows="3" cols="60"></textarea>
+            </label>
+          </fieldset>
+          <fieldset id="submitbutton">
+            <input type="button" id="submit" value="Add to Cart" />
+          </fieldset>
+        </form>
+      </article>
+      <footer>
+        <div id="foot1">
+          <p>150 St. Joseph St.<br />
+          <span class="callout">(416) 555-3337</span></p>
+        </div>
+        <div id="foot2">
+          <p>783 St. Clair Ave. W<br />
+          <span class="callout">(416) 555-2047</span></p>
+        </div>
+        <div id="foot3">
+          <p>360 Dundas St. W<br />
+          <span class="callout">(416) 555-1011</span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

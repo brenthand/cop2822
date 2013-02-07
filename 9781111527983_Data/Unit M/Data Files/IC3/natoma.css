@@ -1,0 +1,157 @@
+﻿/* Hotel Natoma */
+@font-face {
+  font-family: 'PTSansCaption';
+  src: url('fonts/PTC55F-webfont.eot');
+  src: local('☺'), url('fonts/PTC55F-webfont.woff') format('woff'), url('fonts/PTC55F-webfont.ttf') format('truetype'), url('fonts/PTC55F-webfont.svg#webfontaMnF3Xb4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, header, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+article, aside, figure, figcaption, header, footer, nav, video {
+  display: block;
+  }
+article {
+  font-size: 1.4em;
+  padding: 1em;
+  }
+article img {
+  display: block;
+  padding-top: 2em;
+  margin: 0 0 0 150px;
+  }
+body {
+  font-family: tahoma, verdana, arial, sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  }
+figure {
+  display: block;
+  float: right;
+  padding-left: 1em;
+  text-align: center;
+  position: relative;
+  }
+footer {
+  border-top: 0.25em solid #082008;
+  border-left: 0;
+  clear: both;
+  text-align: center;
+  background: #93AD78;
+  -webkit-border-bottom-right-radius: 35px;
+  -moz-border-radius-bottomright: 35px;
+  border-bottom-right-radius: 35px;
+  }
+footer p {
+  padding: 0.5em;
+  }
+h1 {
+  text-align: center;
+  font-family: PTSansCaption, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  background: #082008;
+  color: white;
+  font-size: 2em;
+  -webkit-border-top-left-radius: 35px;
+  -moz-border-radius-topleft: 35px;
+  border-top-left-radius: 35px;
+  }
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 15px 0;
+  }
+nav {
+  background: #93AD78;
+  border-bottom: 0.25em solid #082008;
+  }
+ol {
+  padding-left: 40px;
+  }
+ul {
+  padding-left: 40px;
+  }
+#box {
+  border: 0.25em solid #082008;
+  background: #FDF5E6;
+  position: relative;
+  -webkit-border-top-left-radius: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  -moz-border-radius-topleft: 40px;
+  -moz-border-radius-bottomright: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  }
+#logo {
+  background: #082008;
+  }
+#logo img {
+  display: block;
+  margin: 0 auto;
+  }
+#mainnav {
+  padding: 0.5em;
+  margin: 0;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 12px;
+  background: #082008;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }
+#mainnav li a {
+  text-decoration: none;
+  }
+#skipnav {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 10;
+  }
+#skipnav  a {
+  text-decoration: none;
+  }
+.social {
+  position: absolute;
+  z-index: 20;
+  top: 82px;
+  right: 0px;
+  }
+.social iframe, .social p, .social div {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: #082008;
+  }
+a:hover {
+  text-decoration: underline;
+  }
+a:active {
+  color: #082008;
+  }
+#mainnav a:link, #skipnav a:link {
+  color: white;
+  }
+#mainnav a:visited, #skipnav a:visited {
+  color: #ffffcc;
+  }
+#mainnav a:hover, #skipnav a:hover {
+  text-decoration: underline;
+  }
+#mainnav a:active, #skipnav a:active {
+  color: white;
+  }

@@ -1,0 +1,246 @@
+﻿/* Spotted Wren Garden Center */
+@font-face {
+  font-family: 'LatinModernSans10Regular';
+  src: url('fonts/lmsans10-regular-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-regular-webfont.woff') format('woff'), url('fonts/lmsans10-regular-webfont.ttf') format('truetype'), url('fonts/lmsans10-regular-webfont.svg#webfontN8lwBY19') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'LatinModernSans10Bold';
+  src: url('fonts/lmsans10-bold-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-bold-webfont.woff') format('woff'), url('fonts/lmsans10-bold-webfont.ttf') format('truetype'), url('fonts/lmsans10-bold-webfont.svg#webfontNWekoGWb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+figure, footer, nav {
+  display: block;
+  }
+a {
+  text-decoration: none;
+  }
+article.opener {
+  position: absolute;
+  width: 564px;
+  display: block;
+  left: 280px;
+  }
+article li {
+  margin: 0 0 1em 2em;
+  list-style-type: disc;
+  }
+article li:first-line {
+  font-weight: bold;
+  }
+aside {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  position: relative;
+  border-right: 10px solid #F15A24;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif; 
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+  background: url("images/grass.jpg");
+  }
+dd {
+  font-style: italic;
+  margin-left: 1em;
+  }
+fieldset {
+  margin-bottom: 12px;
+  width: 90%;
+  margin: 0 auto;
+  }
+figure {
+  float: right;
+  margin-left: 0.5em;
+  text-align: center;
+  position: relative;
+  }
+figure img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  }
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  background: rgb(221, 221, 221);
+  background: rgba(221, 221, 221, 0.5);
+  font-weight: bold;
+  }
+footer {
+  background: #ff0;
+  text-align: center;
+  clear: right;
+  }
+footer p { 
+  padding: 0.5em;
+  }
+form {
+  background: #6c6;
+  padding-top: 20px;
+  }
+h1, h2, h3 {
+  font-family: LatinModernSans10Bold, arial, helvetica, sans-serif;
+  }
+h1 {
+  font-size: 2em;
+  }
+h1 img {
+  display: block;
+  }
+h2 {
+  margin-left: 12px;
+  font-size: 1.5em;
+  }
+h3 {
+  margin-left: 12px;
+  font-size: 1.25em;
+  }
+input:focus, textarea:focus {
+  background: #ff0;
+  }
+legend {
+  font-weight: bold;
+  }
+nav {
+  font-size: 1.25em;
+  }
+p {
+  margin: 0 12px 12px 12px;
+  }
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  background: #e0e0e0;
+  }
+#box {
+  width: 864px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  }
+#contactinfo label {
+  display: block;
+  position: relative;
+  margin: 12px 0;
+  }
+#contactinfo input {
+  position: absolute;
+  left: 130px;
+  }
+#jobtype label {
+  display: block;
+  }
+#logo img {
+  display: block;
+  position: relative;
+  z-index: 5;
+  }
+#logobg img {
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  }
+#mainnav {
+  color: white;
+  text-align: center;
+  background: #F15A24;
+  padding: 0.25em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.4em;
+  }
+#nameinput, #emailinput, #addrinput {
+  width: 30em;
+  }
+#notes {
+  display: block;
+  }
+#skipnav {
+  padding: 0.5em;
+  position: absolute;
+  right: 0;
+  z-index: 6;
+  }
+#submitbutton {
+  border: none;
+  text-align: center;
+  margin-bottom: 0;
+  }
+#tagline {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  }
+#zipinput, #phoneinput {
+  width: 12em;
+  }
+.day {
+  font-weight: bold;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.1em 0.5em;
+  }
+.table {
+  display: table;
+  }
+.taglinesub {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 10px;
+  }
+a:link {
+  color: #993300;
+  }
+a:visited {
+  color: #999966;
+  }
+a:hover {
+  text-decoration: underline;
+  color: black;
+  }
+a:active {
+  color: #999966;
+  }
+#mainnav a:link {
+  color: white;
+  }
+#mainnav a:visited {
+  color: #d6d6c2;
+  }
+#mainnav a:hover {
+  text-decoration: none;
+  color: #ffff00;
+  text-shadow: 1px 1px 2px gray;
+  }
+#mainnav a:active {
+  color: #ffcc00;
+  }

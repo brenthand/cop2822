@@ -1,0 +1,182 @@
+/* Murfreesboro Regional Soccer League */
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, header,  nav, p, section, table, th, td {
+  margin: 0;
+  padding: 0;
+  }
+article, aside, figure, header, footer, nav {
+  display: block;
+  }
+article {
+  padding: 0 0.5em;
+  }
+article p {
+  padding-bottom: 0.5em;
+  }
+article li {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+article ul {
+  padding-top: 0;
+  padding-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+body {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  background: green;
+  background: url("images/grass.jpg");
+  }
+div#red, div#blue {
+  float: left;
+  margin-right: 40px;
+  }
+figure {
+  float: right;
+  padding: 1em 0 0.25em 0.5em;
+  display: block;
+  }
+footer {
+  clear: both;
+  }
+h1, #affiliation {
+  background: rgb(140,198,63);
+  background: rgba(140,198,63,0.7);
+  }
+h1, h2, #affiliation {
+  text-align: center;
+  padding: 0.1em;
+  font-family: georgia, "times new roman", times, serif;
+  }
+h1 {
+  font-size: 2em;
+  }
+h2 {
+  font-size: 1.5em;
+  padding: 0.5em 0;
+  }
+h3 {
+  padding: 0.25em;
+  }
+header {
+  background: green;
+  background: url("images/grass.jpg");
+  }
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  background: #e0e0e0;
+  }
+#affiliation {
+  font-size: 1.25em;
+  }
+#box {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border: 0.35em solid black;
+  position: relative;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  color: white;
+  background: black;
+  margin: 0;
+  }
+#logo img {
+  display: block;
+  float: left;
+  }
+#mainnav {
+  text-align: center;
+  background: black;
+  margin: 0;
+  padding: 0.25em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1.5em;
+  margin-right: 0.5em;
+  background-image: url(images/soccer-ball-green.gif);
+  background-position: 0 3px;
+  background-repeat: no-repeat;
+  }
+#mainnav li.currentpage {
+  background-image: url(images/soccer-ball-red.gif);
+  }
+#skipnav {
+  width: 960px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  }
+#skiplink {
+  padding: 0.25em 0.75em;
+  margin: 0;
+  background: black;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  }
+.left {
+  float: left;
+  }
+.toplink {
+  text-align: left;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: #663300;
+  }
+a:visited {
+  color: #663300;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #663300;
+  }
+#mainnav a:link {
+  color: white;
+  text-decoration: none;
+  }
+#mainnav a:visited {
+  color: #8CC63F;
+  }
+#mainnav a:hover {
+  color: red;
+  }
+#mainnav a:active {
+  color: #8CC63F;
+  }
+#skipnav a:link {
+  color: white;
+  }
+#skipnav a:visited {
+  color: white;
+  }
+#skipnav a:hover {
+  color: white;
+  }
+#skipnav a:active {
+  color: white;
+  }

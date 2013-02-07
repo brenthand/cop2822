@@ -1,0 +1,287 @@
+﻿@font-face {
+font-family:CuprumFFURegular;
+src:local(☺), url(fonts/Cuprum-webfont.woff) format(woff), url(fonts/Cuprum-webfont.ttf) format(truetype), url (fonts/Cuprum-webfont.svg#webfontKLktnWy4) format(svg);
+font-weight:400;
+font-style:normal
+}
+
+article,figure,figcaption,footer,nav,section {
+display:block
+}
+
+dt,h1,h2,h3,nav,footer,th {
+font-family:CuprumFFURegular, georgia, "times new roman", times, serif
+}
+
+ol,ul {
+margin-left:2em
+}
+
+body {
+font-family:tahoma, arial, helvetica, sans-serif;
+background:#FFF;
+margin:0 auto
+}
+
+body p {
+font-size:1em
+}
+
+footer {
+clear:both;
+font-size:1.25em;
+margin-top:.5em
+}
+
+footer p {
+background:#B8944D;
+text-align:center;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+margin:.25em;
+padding:.25em
+}
+
+h1 {
+font-size:2em;
+text-align:left
+}
+
+h2 {
+font-size:1.75em;
+margin-bottom:.5em
+}
+
+img {
+border:none;
+margin:0 auto
+}
+
+li img {
+position:absolute;
+left:-22px;
+top:-8px
+}
+
+nav ul {
+margin-left:0
+}
+
+table {
+width:90%;
+border-collapse:collapse;
+margin:0 auto
+}
+
+td {
+border:1px solid #000;
+padding:.25em
+}
+
+th {
+border-bottom:1px solid #000;
+background:#B8944D;
+padding:.25em
+}
+
+ul {
+list-style-type:square
+}
+
+#content {
+display:block;
+margin:.25em
+}
+
+#content p {
+margin-top:.5em;
+margin-bottom:.5em
+}
+
+#instructions {
+font-size:.8em
+}
+
+#mainnav {
+text-align:left;
+display:none;
+position:absolute;
+background:#FFF;
+padding:.25em
+}
+
+#mainnav a {
+text-decoration:none
+}
+
+#mainnav li {
+display:inline-block;
+list-style-type:none;
+background:#B8944D;
+position:relative;
+-webkit-border-top-right-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-moz-border-radius-topright:10px;
+-moz-border-radius-bottomright:10px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+border-bottom:2px solid #666;
+border-right:2px solid #777;
+margin:.25em 0 .25em .5em;
+padding:.25em .25em .25em 1em
+}
+
+#pagenav {
+color:#FFF;
+background:#422100;
+display:none;
+margin:0;
+padding:.25em
+}
+
+#title {
+font-style:italic
+}
+
+.beds {
+font-weight:700;
+margin:1em 0 0 2em;
+padding:0
+}
+
+.boxshadow #mainnav li {
+border:none;
+-webkit-box-shadow:2px 2px 4px #000;
+-moz-box-shadow:2px 2px 4px #000;
+box-shadow:2px 2px 4px #000
+}
+
+.clearright {
+clear:both
+}
+
+.contact {
+display:table
+}
+
+.cotcol {
+background:#9daecd;
+width:15%
+}
+
+.desc {
+margin:1em 0 0 2em;
+padding:0
+}
+
+.desktop {
+display:none
+}
+
+.firstcol {
+background:#f1eace;
+width:25%
+}
+
+.rates td.season {
+text-align:left
+}
+
+.req {
+color:red
+}
+
+.roomcols {
+background:#aecdf4;
+width:15%
+}
+
+.roominfo {
+margin-left:75px;
+margin-right:50px;
+border-bottom:2px solid #000
+}
+
+.row {
+display:table-row
+}
+
+.row div {
+display:table-cell;
+padding:.25em .5em
+}
+
+.social img,.social iframe,.social p {
+float:right;
+display:inline;
+padding-left:10px;
+padding-bottom:10px
+}
+
+.tablenote {
+width:90%;
+margin:.25em auto
+}
+
+.toplink {
+text-align:right;
+clear:right;
+margin:0;
+padding:0 1em .25em 0
+}
+
+#pagenav a:visited {
+color:#D7C39C
+}
+
+#pagenav a:hover {
+color:#C6A971
+}
+
+#mainnav a:hover {
+color:#FFF;
+text-shadow:1px 1px 1px #000
+}
+
+article,body,dd,div,dl,dt,figcaption,figure,footer,h1,h2,h3,li,nav,object,ol,p,section,table,th,td,ul,#mainnav ul {
+margin:0;
+padding:0
+}
+
+h2,footer,nav p,#message,.rates td {
+text-align:center
+}
+
+h1 img,.social {
+float:right
+}
+
+h3,nav {
+font-size:1.25em
+}
+
+#name,.callout,.category,.eventdate {
+font-weight:700
+}
+
+#skipnav,.shownav {
+text-align:right;
+position:relative;
+right:15px;
+z-index:10;
+margin:0 auto;
+padding:.25em
+}
+
+a:link,a:visited,a:active,#mainnav a:visited,#mainnav a:active {
+color:#422100
+}
+
+a:hover,#mainnav a:link {
+color:#000
+}
+
+#pagenav a:link,#pagenav a:active {
+color:#FFF
+}

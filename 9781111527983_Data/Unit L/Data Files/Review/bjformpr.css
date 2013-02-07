@@ -1,0 +1,58 @@
+/* Lakeland Reeds Bed and Breakfast -- Forms */
+legend, #submit {
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  font-weight: bold;
+  }
+fieldset {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 2.5em 1em 0.5em 1em;
+  }
+fieldset fieldset {
+  padding-top: 5px;
+  }
+form {
+  padding: 10px;
+  }
+input, textarea {
+  font-size: 1em;
+  }
+legend span {
+  position: absolute;
+  left: 0;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  }
+#instructions {
+  display: block;
+  }
+#deliveryinfo, #orderinfo, #additionalinfo, #submitbutton {
+  border: none;
+  }
+#deliveryinfo label {
+  display: block;
+  position: relative;
+  margin: 12px 0;
+  }
+#deliveryinfo input {
+  position: absolute;
+  left: 120px;
+  }
+#nameinput, #emailinput, #addrinput {
+  width: 30em;
+  }
+#cityinput, #phoneinput {
+  width: 12em;
+  }
+#crustbox label, #toppingbox label {
+  margin-right: 25px;
+  }
+#submit {
+  font-size: 1.25em;
+  }
+#submitbutton {
+  border: none;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  }

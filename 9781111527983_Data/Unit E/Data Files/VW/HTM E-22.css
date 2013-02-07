@@ -1,0 +1,46 @@
+﻿/* Revisions Bookstore and Cafe */
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fontsChunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  width: 32em;
+  margin: 0 auto;
+  padding: 0;
+  }
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  background: #6787E7;
+  font-size: 2em;
+  }
+#contact {
+  text-align: right;
+  margin: 0 auto;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  background: black;
+  color: white;
+  padding: 1em;
+  }
+#box {
+  margin: 0;
+  padding: 0.5em;
+  }
+#mainnav {
+  background: #BDCCD4;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  }

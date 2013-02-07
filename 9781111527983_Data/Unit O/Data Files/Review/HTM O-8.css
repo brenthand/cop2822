@@ -1,0 +1,321 @@
+﻿/* Big J's Deep Dish Pizza */
+@font-face {
+  font-family: 'MolengoRegular';
+  src: url('fonts/Molengo-Regular-webfont.eot') format('eot'),
+  url('fonts/Molengo-Regular-webfont.woff') format('woff'), url('fonts/Molengo-Regular-webfont.ttf') format('truetype'), url('fonts/Molengo-Regular-webfont.svg#webfontQJMgyz3x') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+a {
+  text-decoration: none;
+  }
+article {
+  display: block;
+  background: black;
+  position: relative;
+  }
+aside {
+  display: block;
+  background: white;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  background: white;
+  }
+figure {
+  float: right;
+  margin: 0.5em;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  }
+figure img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  }
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.6);
+  }
+footer {
+  display: block;
+  color: white;
+  background: black;
+  text-align: center;
+  padding-bottom: 0.5em;
+  font-size: 1.25em;
+  clear: both;
+  }
+h1 {
+  font-size: 2em;
+  padding: 0.2em;
+  text-align: center;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  color: red;
+  }
+h2 {
+  color: white;
+  font-size: 2em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  position: absolute;
+  top: -1.5em;
+  left: 0.5em;
+  }
+h3 {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+img {
+  border: none;
+  }
+section {
+  margin: 10px 0;
+  padding: 10px 0;
+  background: #e3d5ba;
+  }
+table {
+  margin: 1em;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  background: #fc6;
+  }
+#box {
+  margin: 0;
+  padding: 0 10px;
+  background: black;
+  position: relative;
+  }
+#foot1, #foot2, #foot3 {
+  padding-bottom: 20px;
+  }
+#logo {
+  position: relative;
+  z-index: 2;
+  }
+#mainnav {
+  color: black;
+  margin: 0;
+  text-align: center;
+  }
+#mainnav li {
+  list-style-type: none;
+  z-index: 3;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-image: url(images/tanstar.png);
+  background-position: 2px 1px;
+  background-repeat: no-repeat;
+  }
+#mainnav li.currentpage {
+  background-image: url(images/blackstar.png);
+  }
+#mainnav li a {
+  display: block;
+  font-size: 1em;
+  padding: 10px;
+  }
+#message {
+  background: black;
+  color: white;
+  }
+#mobilelogo {
+  display: none;
+  padding: 20px 0 50px;
+  }
+#mobilelogo img {
+  float: right;
+  }
+#navlink1, #navlink2, #navlink3, #navlink4 {
+  background: red;
+  }
+#pagenav {
+  padding: 0;
+  margin: 10px;
+  }
+#pagenav li {
+  list-style-type: none;
+  display: inline-block;
+  background: #fc6;
+  margin: 0 0 10px 0;
+  padding: 0;
+  } 
+#pagenav li a {
+  padding: 10px;
+  }
+#reqinstr {
+  color: red;
+  font-size: 0.8em;
+  }
+#skipnav {
+  text-align: right;
+  color: #422100;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+#words {
+  text-align: center;
+  padding: 0.5em;
+  color: #fc6;
+  font-weight: bold;
+  background: black;
+  width: 40%;
+  margin: 0 auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  }
+#words li {
+  list-style-type: none;
+  }
+.addr {
+  padding: 0 0.25em 0 0.5em;
+  margin: 0 0.25em 0.25em 0;
+  }
+.boxshadow figure {
+  border: none;
+  -webkit-box-shadow: 2px 2px 4px red;
+  -moz-box-shadow: 2px 2px 4px red;
+  box-shadow: 2px 2px 4px red;
+  }
+.callout {
+  font-weight: bold;
+  }
+.center {
+  background: white;
+  width: 100%;
+  height: 80px;
+  font-size: 1.5em;
+  padding: 2em;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  }
+.content .maintext {
+  margin: 0.5em;
+  }
+.content .maintext:first-letter {
+  font-size: 3em;
+  float: left;
+  line-height: 0.8em;
+  }
+.days {
+  font-weight: bold;
+  }
+.daycol {
+  background: #e0e0e0;
+  }
+.hours {
+  padding: 0 3em;
+  margin-top: 0.5em;
+  }
+.left, .right {
+  width: 200px;
+  height: 80px;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em;
+  position: absolute;
+  top: 200px;
+  z-index: 2;
+  background: none;
+  }
+.left {
+  border-left: 5px solid black;
+  }
+.req {
+  color: red;
+  }
+.right {
+  right: 0px;
+  border-right: 5px solid black;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.1em 0.5em;
+  }
+.strong {
+  color: red;
+  font-weight: bold;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: red;
+  }
+a:visited {
+  color: red;
+  }
+a:hover {
+  text-decoration: underline;
+  }
+a:active {
+  color: red;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: #754719;
+  }
+#pagenav a:hover {
+  text-decoration: underline;
+  }
+#pagenav a:active {
+  color: #754719;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: #fc6;
+  }
+#mainnav a:hover {
+  color: #fc6;
+  text-shadow: 1px 1px 1px black;
+  }
+#mainnav a:active {
+  color: #fc6;
+  }
+@media only screen and (max-device-width: 1024px) {
+  #desktoplogo {
+    display: none;
+    }
+  #mobilelogo {
+    display: block;
+    }
+  }

@@ -1,0 +1,21 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+h1, h2 {
+  text-align: center;
+  }
+h1 {
+  margin: 0;
+  }
+#box {
+  border: 0.25em solid black;
+  width: 40em;
+  padding: 1em;
+  margin-left: auto; 
+  margin-right: auto;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  width: 12.5em;
+  margin-left: auto;
+  margin-bottom: 0;
+  }

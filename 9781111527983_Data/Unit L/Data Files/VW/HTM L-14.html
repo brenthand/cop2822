@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Revisions Bookstore &amp; Cafe - Reading Groups</title>
+    <link type="text/css" rel="stylesheet" media="screen" href="revision.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="revprint.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="scripts/modernizr-1.6.min.js"></script>
+  </head>
+  <body>
+    <p id="skipnav"><a href="#main">Skip navigation</a></p> 
+    <div id="box">
+      <nav>
+        <ul id="mainnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">Store History</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
+          <li><a href="http://bit.ly/9xrcWh" target="_blank">Location</a></li>
+          <li><a href="signup.html">Book Groups</a></li>
+        </ul>
+      </nav>
+      <aside>
+				<h1>
+					<img src="images/rev-sm.gif" width="180" height="150" alt="Revisions Bookstore and Cafe" title="" />
+				</h1>
+        <p id="main" class="maintext">Custom brewed coffee.</p>
+        <p class="maintext">Hand-selected books.</p>
+        <p class="maintext">Special orders are our specialty.</p>
+      </aside>
+      <article id="main">
+        <h2>Book Groups</h2>
+        <h3>Signup Form</h3>
+        <form name="signup" id="signup">
+          <fieldset id="contactinfo">
+            <legend>Contact Information</legend>
+            <label for="fnameinput">
+              <span class="req">*</span>First Name
+              <input type="text" id="fnameinput" name="fname" placeholder="First name" />
+            </label>
+            <label for="lnameinput">
+              <span class="req">*</span>Last Name
+              <input type="text" id="lnameinput" name="lname" placeholder="Last name" />
+            </label>
+            <label for="emailinput">
+              Email
+              <input type="email" id="emailinput" name="email" placeholder="address@example.com" />
+            </label>
+            <label for="phoneinput">
+              Phone
+              <input type="text" id="phoneinput" name="phone" />
+            </label>
+            <p id="reqinstr">* The First Name and Last Name fields are required</p>
+          </fieldset>
+          <fieldset id="topicbox">
+            <legend>Topic(s) of interest</legend>
+            <label for="aa">
+              <input type="checkbox" id="aa" name="topic" value="African American Writers" />
+              African American Writers
+            </label>
+            <label for="best">
+              <input type="checkbox" id="best" name="topic" value="Best Sellers" />
+              Best Sellers
+            </label>
+            <label for="mystery">
+              <input type="checkbox" id="mystery" name="topic" value="Mystery" />
+              Mystery
+            </label>
+            <label for="short">
+              <input type="checkbox" id="short" name="topic" value="Short Fiction" />
+              Short Fiction
+            </label>
+            <label for="va">
+              <input type="checkbox" id="va" name="topic" value="VA History" />
+              Virginia History
+            </label>
+            <label for="other">
+              <input type="checkbox" id="other" name="topic" value="Other" />
+              Other (please specify below)
+            </label>
+          </fieldset>
+          <fieldset id="additionalinfo">
+            <legend>Additional information</legend>
+            <label for="feedback">
+              Questions or topic ideas for new writing groups
+              <textarea id="feedback" name="feedback" rows="7" cols="50"></textarea>
+            </label>
+          </fieldset>
+          <fieldset id="submitbutton">
+            <input type="button" id="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </article>
+      <footer>
+        <p>412 N. 25th St.<br />Richmond, VA 23223<br />(804) 555-2565</p>
+      </footer>
+    </div>
+  </body>
+</html>

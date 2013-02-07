@@ -1,0 +1,82 @@
+﻿/* Hotel Natoma */
+@font-face {
+  font-family: 'PTSansCaption';
+  src: url('fonts/PTC55F-webfont.eot');
+  src: local('☺'), url('fonts/PTC55F-webfont.woff') format('woff'), url('fonts/PTC55F-webfont.ttf') format('truetype'), url('fonts/PTC55F-webfont.svg#webfontaMnF3Xb4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  font-family: tahoma, verdana, arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  }
+h1 {
+  text-align: center;
+  font-family: PTSansCaption, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  background: #082008;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+nav {
+  display: block;
+  }
+#box {
+  border: 0.25em solid #082008;
+  padding: 0;
+  margin: 0;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  border-top: 0.25em solid #082008;
+  background: #93AD78;
+  margin: 0;
+  clear: right;
+  }
+#mainnav {
+  text-align: center;
+  padding: 0.5em;
+  border-bottom: 0.25em solid #082008;
+  background: #93AD78;
+  margin: 0;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  }
+a:link {
+  color: #213621;
+  }
+a:visited {
+  color: #526352;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #526352;
+  }
+#mainnav a:link {
+  color: #213621;
+  }
+#mainnav a:visited {
+  color: #394D39;
+  }
+#mainnav a:hover {
+  color: black;
+  }
+#mainnav a:active {
+  color: #394D39;
+  }

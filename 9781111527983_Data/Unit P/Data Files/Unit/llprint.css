@@ -1,0 +1,283 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+@font-face {
+  font-family: 'CuprumFFURegular';
+  src: url('fonts/Cuprum-webfont.eot');
+  src: local('☺'), url('fonts/Cuprum-webfont.woff') format('woff'), url('fonts/Cuprum-webfont.ttf') format('truetype'), url('fonts/Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, object, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+article, figure, figcaption, footer, nav, section {
+  display: block;
+  }
+dt, h1, h2, h3, nav, footer, th {
+  font-family: CuprumFFURegular, georgia, "times new roman", times, serif;
+  }
+h1, h2, footer {
+  text-align: center;
+  }
+ol, ul {
+  margin-left: 2em;
+  }
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  }
+body p {
+  font-size: 1em;
+  }
+figcaption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0.5em 0;
+  width: 100%;
+  }
+figure {
+  float: right;
+  margin: 0 0 0.5em 1em;
+  text-align: center;
+  position: relative;
+  }
+footer {
+  clear: both;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  }
+footer p {
+  text-align: center;
+  padding: 0.25em;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  }
+h1 {
+  font-size: 2.25em;
+  }
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  }
+h3 {
+  font-size: 1.25em;
+  }
+img {
+  border: none;
+  margin: 0 auto;
+  }
+li img {
+  position: absolute;
+  left: -22px; 
+  top: -8px;
+  }
+nav {
+  font-size: 1.25em;
+  }
+nav ul {
+  margin-left: 0;
+  }
+nav p {
+  text-align: center;
+  }
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border-bottom: 1px solid black;
+  padding: 0.25em;
+  }
+ul {
+  list-style-type: square;
+  }
+#box {
+  position: relative;
+  padding: 1em;
+  margin: 0 auto; 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  }
+#content {
+  display: block;
+  margin-left: 10em;
+  }
+#content p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  }
+#instructions {
+  font-size: 0.8em;
+  }
+#mainnav {
+  text-align: left;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  width: 7em;
+  position: absolute;
+  left: 10px;
+  }
+#mainnav a {
+  text-decoration: none;
+  }
+#mainnav li {
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1em;
+  margin: 0.25em 0;
+  position: relative;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid #666;
+  border-right: 2px solid #777;
+  }
+#mainnav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 2em;
+  z-index: 2;
+  }
+#message {
+  text-align: center;
+  }
+#name {
+  font-weight: bold;
+  }
+#pagenav {
+  margin: 0;
+  padding: 0.25em;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  position: absolute;
+  right: 15px;
+  z-index: 10;
+  }
+#title {
+  font-style: italic;
+  }
+.beds {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  font-weight: bold;
+  }
+.boxshadow #mainnav li {
+  border: none;
+  -webkit-box-shadow: 2px 2px 4px #000000;
+  -moz-box-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 4px #000000;
+  }
+.callout, .category, .eventdate {
+  font-weight: bold;
+  }
+.clearright {
+  clear: right;
+  }
+.contact {
+  display: table;
+  }
+.cotcol {
+  width: 15%;
+  }
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+.firstcol {
+  width: 25%;
+  }
+.rates td {
+  text-align: center;
+  }
+.rates td.season {
+  text-align: left;
+  }
+.roomcols {
+  width: 15%;
+  }
+.roominfo {
+  margin-left: 75px;
+  margin-right: 50px;
+  border-bottom: 2px solid black;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.25em 0.5em;
+  }
+.social {
+  float: right;
+  }
+.social img, .social iframe, .social p {
+  float: right;
+  display: inline;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  }
+.tablenote {
+  width: 90%;
+  margin: 0.25em auto;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  clear: right;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: black;
+  }
+#pagenav a:hover {
+  color: black;
+  }
+#pagenav a:active {
+  color: black;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  }
+#mainnav a:active {
+  color: black;
+  }

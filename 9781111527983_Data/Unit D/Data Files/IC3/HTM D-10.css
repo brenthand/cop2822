@@ -1,0 +1,22 @@
+﻿/* Hotel Natoma */
+body {
+  text-align: center;
+  }
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+#box {
+  border: 0.25em solid rgb(8,32,8);
+  width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  border-top: 0.25em solid rgb(8,32,8);
+  margin: 0;
+  }

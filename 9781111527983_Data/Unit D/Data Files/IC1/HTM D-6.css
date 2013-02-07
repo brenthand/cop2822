@@ -1,0 +1,20 @@
+﻿/* Spotted Wren Garden Center */
+body {
+  text-align: center;
+  }
+h1 {
+  margin: 0;
+  }
+#tagline {
+  margin: 0;
+  padding: 0.25em;
+  }
+#location {
+  padding: 0.5em;
+  }
+.box {
+  border: 0.2em solid green;
+  width: 32em;
+  margin-left: auto;
+  margin-right: auto; 
+  }

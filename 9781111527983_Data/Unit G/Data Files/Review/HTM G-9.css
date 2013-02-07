@@ -1,0 +1,177 @@
+/* Big J's Deep Dish Pizza */
+@font-face {
+  font-family: 'MolengoRegular';
+  src: url('fonts/Molengo-Regular-webfont.eot');
+  src: local('☺'), url('fonts/Molengo-Regular-webfont.woff') format('woff'), url('fonts/Molengo-Regular-webfont.ttf') format('truetype'), url('fonts/Molengo-Regular-webfont.svg#webfontQJMgyz3x') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  background: white;
+  background: url("images/brick.jpg");
+  }
+figure {
+  float: left;
+  padding: 0 0.5em 0.25em 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+figure img {
+  margin: 0;
+  padding: 0;
+  }
+figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  }
+footer {
+  display: block;
+  background: #fc6;
+  border-width: 0.25em 0;
+  border-style: solid;
+  border-color: red;
+  }
+h1 {
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+h2 {
+  font-size: 1.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  margin: 0;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+h3 {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+img {
+  border: none;
+  }
+#awards {
+  text-align: right;
+  clear: right;
+  }
+#box {
+  width: 31em;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 0;
+  background: white;
+  }
+#logo  {
+  float: right;
+  }
+#mainnav {
+  color: red;
+  background: black;
+  padding: 0.5em;
+  margin: 0;
+  border-width: 0.25em 0;
+  border-style: solid;
+  border-color: red;
+  text-align: right;
+  }
+#pagenav {
+  background: #fc6;
+  padding: 0.5em;
+  margin: 0;
+  }
+#skiplink {
+  background: white;
+  padding: 0.25em;
+  }
+#skipnav {
+  width: 31em;
+  text-align: right;
+  color: #422100;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+#words {
+  text-align: center;
+  padding: 0.5em;
+  color: #fc6;
+  font-weight: bold;
+  background: black;
+  }
+.addr {
+  padding: 0 3em 0 0.5em;
+  margin: 0 1em 0.25em 0;
+  }
+.callout {
+  font-weight: bold;
+  }
+.hours {
+  padding: 0 3em;
+  margin-top: 0.5em;
+  }
+.listintro {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  }
+.maintext {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  }
+.tagline {
+  font-size: 1.5em;
+  padding: 0.25em;
+  margin: 0;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: #663300;
+  }
+a:visited {
+  color: #754719;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #754719;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: #754719;
+  }
+#pagenav a:hover {
+  color: #663300;
+  }
+#pagenav a:active {
+  color: #754719;
+  }
+#mainnav a:link {
+  color: red;
+  }
+#mainnav a:visited {
+  color: #fc6;
+  }
+#mainnav a:hover {
+  color: white;
+  }
+#mainnav a:active {
+  color: #fc6;
+  }

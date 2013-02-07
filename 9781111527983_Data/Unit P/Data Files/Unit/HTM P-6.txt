@@ -1,0 +1,26 @@
+Name:  
+HTML5 Illustrated, Unit P
+
+Lakeland Reeds Bed & Breakfast
+Web site Testing Plan
+
+1. Feedback
+   With user viewing index.html, ask
+   a. "Based only on this Web page, please give me three words that describe this business."
+   b. 
+   c. 
+   d. 
+   e. "Do you have any other impressions of this bed & breakfast based on this Web page?" [If yes: "Please describe them."]
+ 
+2. Tasks
+   "Now, using the Web site, please locate
+   a. 
+   b. 
+   c. 
+
+3. "Based on this Web site, if you were looking to make a reservation at a bed & breakfast, how likely would you be to consider Lakeland Reeds? Definitely not, unlikely, likely, or definitely?"
+
+4. "Do you have any other feedback about this Web site?"
+
+"Thank you for your time and your help."
+
