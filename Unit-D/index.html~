@@ -4,16 +4,20 @@
     <meta charset="utf-8" />
     <title>Revisions Bookstore and Cafe</title>
     <style type="text/css">
-      
-	@font-face {
+
+      body {
+	      font-family: Verdana, georgia, "times new romans", times;
+      }
+      @font-face {
 		font-family: 'ChunkFiveRegular';
 		src: url('Chunkfive-webfont.eot');
 		src: local('âº'), url('Chunkfive-webfont.woff') format('woff'), url('Chunkfive-webfont.ttf') format('truetype'), url('Chunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
 		font-weight: normal;
 		font-style: normal;
-}
+      }
 
       h1 {
+	font-family: ChunkFiveRegular, Verdana, georgia, times; 
         text-align: center;
         border: 0.1em solid rgb(65,105,225);
         width: 15.5em;
@@ -21,8 +25,12 @@
 	padding: 0.25em;
 	background: rgb(189,204,212)
 	font-weight: normal;
-        }
+	background: rgb(189,204,212)
+      }
       #contact {
+        background: black;
+	color: white;
+	font-weight: bold;
         text-align: right;
         width: 30em;
         margin: 0 auto;
@@ -35,11 +43,14 @@
         }
       .maintext {
         text-align: left;
-        }
+      }
+      
     </style>
   </head>
   <body>
-    <h1>Revisions Bookstore and Cafe</h1>
+    <div id="heading">
+	    <h1>Revisions Bookstore and Cafe</h1>
+    </div>
     <div id="box">
       <p class="maintext">Custom brewed coffee and hand-selected books.</p>
       <p class="maintext">Special orders are our specialty.</p>
