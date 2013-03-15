@@ -1,4 +1,4 @@
-﻿/* Revisions Bookstore and Cafe 
+/* Revisions Bookstore and Cafe 
  
  Brenton Hand
  HTML5 Unit H Visual Workshop
@@ -72,6 +72,8 @@ th {
   border: 5px solid tan;
   }
 #logo {
+  position: relative;
+  top: 10px;
   float: left;
   margin: 0;
   padding: 0;
@@ -82,7 +84,10 @@ th {
   display: block;
   }
 #mainnav {
+  display: none;
   background: #BDCCD4;
+  position: relative;
+  top: -1em;
   padding: 0.5em;
   margin: 0;
   text-align: center;
@@ -93,6 +98,7 @@ th {
   padding: 0.25em;
   }
 #skipnav {
+  display: none;
   width: 34em;
   text-align: right;
   margin: 0 auto;
@@ -125,3 +131,12 @@ a:active {
 #mainnav a:active {
   color: #3454B4;
   }
+#maintext {
+	position: absolute;
+	top: 160px;
+	float: left;
+}
+aside {
+	position: absolute;
+	top: 160px;
+}
